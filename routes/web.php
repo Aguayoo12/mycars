@@ -34,3 +34,6 @@ require __DIR__.'/auth.php';
 
 Route::resource('user', UserController::class)->middleware('auth');
 Route::resource('car', CarController::class)->middleware('auth');
+
+//creacion de una api: las consume otra aplicacion
+
